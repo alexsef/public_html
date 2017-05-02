@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="author" content="www.frebsite.nl" />
-    <meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>jQuery.mmenu demo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <title>NEW</title>
 
     <link type="text/css" rel="stylesheet" href="css/demo.css" />
 
     <link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all.css" />
 
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
     <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.0.js"></script>
 
     <script type="text/javascript" src="js/jquery.mmenu.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/6.0.2/addons/fixedelements/jquery.mmenu.fixedelements.min.js"></script>
 
     <script type="text/javascript">
         $(function() {
@@ -23,7 +29,7 @@
 </head>
 <body>
     <div id="page">
-            <div class="header fixed">
+            <div class="header fixed Fixed">
                 <a href="#menu">
                     <img src="images/Слой-3.png" alt="">
                 </a>
@@ -31,10 +37,14 @@
             </div>
 
             <div class="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+
                 <div class="wrap">
                     <div class="smo">
                             <div class="text big">
-                                В наше время <span class="yellow">SMO</span> (Social Media Optimization — продвижение в социальных сетях)<br>
+                                В наше время <span class="yellow-smo">SMO</span> (Social Media Optimization — продвижение в социальных сетях)<br>
                                 — это один из относительно новых, но невероятно востребованных видов рекламы.
                             </div>
                             <div class="text">
@@ -89,7 +99,19 @@
                                 <div class="but">
                                     <button class="button">Заказать продвижение</button>
                                 </div>
+                                <div class="contacts">
+                                    <a href="#">Контакты</a>
+                                </div>
+                                    <div class="line">
+                                        <div class="strelka"></div>
+                                    </div>
+                                    
                             </div>
+            </div>
+
+                </div>
+            </div>
+            </div>
             </div>
 
             <nav id="menu">
@@ -101,9 +123,10 @@
                     <li><a href="#">Контакты</a></li>
                 </ul>
             </nav>
-            <div class="contacts">
-                <span>Контакты</span>
-            </div>
+            
         </div>
+        </div>
+
+
 </body>
 </html>
